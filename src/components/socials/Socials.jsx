@@ -11,7 +11,7 @@ const Socials = () => {
             <a style={{color:"white"}}href="https://www.github.com/ervintuzlic" target="_blank"><FiGithub style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
         </div>
         <div class="rightSocials">
-            <p class="emailSocial">ervin.tuzlic16@gmail.com</p>
+            <p class="emailSocial"><a href="mailto:ervin.tuzlic16@gmail.com">ervin.tuzlic16@gmail.com</a></p>
         </div>
     </div>
   )

@@ -39,3 +39,6 @@
     height: 10rem;
     background-color: var(--color-primary);
 }
+.rightSocials p a{
+    color:white;
+}
