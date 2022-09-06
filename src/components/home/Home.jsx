@@ -9,7 +9,7 @@ const Home = () => {
                 <h3>Hi, my name is</h3>
                 <h1>Ervin Tuzlic.</h1>
                 <p>I'm a software engineer developing stuff.</p>
-                <button>Check out my projects!</button>                
+                <a href="#projects" ><button className="checkProjects" type="button" style={{cursor:"pointer" }}>Check out my projects!</button></a>              
             </div>
             <div class="rotatingCube">
                 <div id="cubecontainer">

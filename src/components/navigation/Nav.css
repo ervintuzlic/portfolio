@@ -56,11 +56,19 @@ ul a {
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-primary);
+    color: white;
     font-size: 1.1rem;
 }
 
 .navigation-bar nav ul a:hover {
     background-color: var(--color-bg);
+    color: var(--color-primary);
     border-radius: 50%;
+}
+
+#nav-container .contactme .contactmebtn:hover{
+    background-color: white;
+    border: none;
+    color: var(--color-bg);
+    transition: var(--transition);
 }

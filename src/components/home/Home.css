@@ -28,6 +28,12 @@
     font-weight: bold;
     border-radius: 4px;
 }
+#container .information-box button:hover{
+  background-color: white;
+  border: none;
+  color: var(--color-bg);
+  transition: var(--transition);
+}
 .information-box{
     text-align: center;
     margin-top: 12rem;

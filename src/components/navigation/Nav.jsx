@@ -16,19 +16,19 @@ const Nav = () => {
             <nav>
                 <ul>
                     <li>
-                        <a style={{color:"white"}}href="#home"><AiFillHome style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
+                        <a href="#home"><AiFillHome style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
                     </li>
                     <li>
-                        <a style={{color:"white"}}href="#about"><BsFillPersonFill style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
+                        <a href="#about"><BsFillPersonFill style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
                     </li>
                     <li>
-                        <a style={{color:"white"}}href="#projects"><MdLibraryBooks style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
+                        <a href="#projects"><MdLibraryBooks style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="contactme">
-            <button>Contact me!</button>
+            <a href="#contact" ><button className="contactmebtn" type="button" style={{cursor:"pointer" }}>Contact me!</button></a>
         </div>
     </div>
   )
