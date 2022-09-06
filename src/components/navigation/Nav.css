@@ -26,6 +26,7 @@
     font-size:16px;
     font-weight: bold;
     border-radius: 4px;
+    transition: all 300ms ease-in-out;
 }
 
 .navigation-bar{
@@ -70,5 +71,6 @@ ul a {
     background-color: white;
     border: none;
     color: var(--color-bg);
-    transition: var(--transition);
+    transition: all 400ms ease-in-out;
+    font-size: 18px;
 }
