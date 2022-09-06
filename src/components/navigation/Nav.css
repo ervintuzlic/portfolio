@@ -12,8 +12,9 @@
     z-index: 2;
     align-items: center;
     justify-content: center;
-    gap: 40%;
+    gap: 20%;
     backdrop-filter: blur(15px);
+    width: 100%;
 }
 
 #nav-container .contactme button{
