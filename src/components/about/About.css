@@ -67,3 +67,20 @@
     color: var(--color-bg);
     transition: var(--transition);
 }
+
+
+@media screen and (max-width: 1280px){
+    .avatar{
+        width:150px;
+        height:150px;
+    }
+    #aboutContainer .aboutSection{
+        margin-top:13rem;
+        padding-top:4rem;
+        width:50%;
+        font-size:16px;
+    }
+    .SendMessage{
+        display:none;
+    }
+}

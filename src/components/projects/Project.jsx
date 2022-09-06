@@ -14,7 +14,7 @@ const Project = () => {
             {projectList.map((item)=>(
               <div className="projectIndividual" key={item.id}>
                 <div class="projectImage">
-                  <img src={item.image} {...item} style={{width:"300px", height:"180px"}}/>
+                  <img className="image-for-project" src={item.image} {...item}/>
                 </div>
                 <div class="projectSection">
                   <h3>{item.title}</h3>

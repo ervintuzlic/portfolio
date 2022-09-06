@@ -1,8 +1,6 @@
 #projectsContainer{
     display:flex;
     justify-content: center;
-    position: relative;
-    z-index:1800;
 }
 
 .projectsHeadline {
@@ -14,6 +12,8 @@
 }
 
 .project{
+    position: relative;
+    z-index:1800;
     display: inline-flex;
     flex-wrap: wrap;
     margin-top: 8rem;
@@ -32,6 +32,11 @@
     background-color:var(--color-transparent);
     padding: 1rem 1rem 1.5rem 1rem;
     text-align:center;
+}
+
+.image-for-project {
+    width:300px;
+    height:180px;
 }
 
 .projectSection h3{
@@ -65,4 +70,22 @@
     cursor:default;
     pointer-events:none;
     opacity: 0.3;
+}
+
+@media screen and (max-width: 1280px){
+    .project{
+        width: 54%;
+    }
+    .projectImage{
+        width:250px;
+        height:130px;
+    }
+
+    .image-for-project  {
+        width:250px;
+        height:130px;
+    }
+    .project .projectIndividual {
+        width: 250px;
+    }
 }
