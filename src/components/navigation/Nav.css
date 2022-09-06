@@ -1,0 +1,28 @@
+.etlogo{
+    width:141px;
+    height:85px;
+}
+#nav-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:18%;
+    margin-top:2rem;
+}
+
+#nav-container .contactme button{
+    width:141px;
+    height:55px;
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+ul{
+    display:flex;
+    gap:6rem
+}
