@@ -7,21 +7,31 @@
     gap:50%;
     position: fixed;
     bottom: 0;
-    z-index: 1;
 }
 .leftSocials {
+    position:relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     margin-left: 6rem;
-    z-index: -1;
+    z-index: 3000;
 }
 .leftSocials::after{
     content: "";
     width: 2px;
     height: 10rem;
     background-color: var(--color-primary);
+}
+.leftSocials a{
+    color:white;
+}
+.leftSocials a:hover{
+    color:var(--color-primary);
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgba(255, 255, 255, 0),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 .emailSocial {
     font-family: 'Fira Code';
@@ -34,6 +44,16 @@
     align-items: center;
     gap: 1rem;
 
+}
+.rightSocials a{
+    color:white;
+}
+.rightSocials a:hover{
+    color:var(--color-primary);
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgba(255, 255, 255, 0),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 .rightSocials::after{
     content: "";

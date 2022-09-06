@@ -3,13 +3,14 @@
     height:85px;
 }
 #nav-container{
+    position:relative;
     background-color: var(--color-bg), 0.3;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: row;
-    z-index: 2;
+    z-index: 2000;
     align-items: center;
     justify-content: center;
     gap: 20%;
@@ -72,5 +73,4 @@ ul a {
     border: none;
     color: var(--color-bg);
     transition: all 400ms ease-in-out;
-    font-size: 18px;
 }

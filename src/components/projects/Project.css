@@ -1,3 +1,68 @@
+#projectsContainer{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    z-index:1800;
+}
+
+.projectsHeadline {
+    padding-top:0.7rem;
+    font-family:'Fira Code';
+    font-size: x-large;
+    color:var(--color-primary);
+    text-align:center;
+}
+
 .project{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    width: 54%;
+    gap:3rem;
+}
+.project .projectIndividual {
+    width: 300px;
+}
+
+.projectImage {
+    height:180px;
+}
+
+.projectSection{
+    background-color:var(--color-transparent);
+    padding: 1rem 1rem 1.5rem 1rem;
+    text-align:center;
+}
+
+.projectSection h3{
+    font-family:'Fira Code';
+    color:var(--color-primary);
+    padding-bottom: 0.5rem;
+    font-size:15.5px;
+}
+.projectSection p{
+    padding-bottom: 0.5rem;
+    font-size: 12px;
+}
+.projectSection div {
     display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top:1.8rem;
+}
+.projectSection div a{
+    font-size:x-large;
+    color:white;
+}
+.projectSection div a:hover{
+    color:var(--color-primary);
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px rgba(255, 255, 255, 0),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.isDisabled{
+    cursor:default;
+    pointer-events:none;
+    opacity: 0.3;
 }
