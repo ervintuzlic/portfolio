@@ -1,4 +1,10 @@
 #socialsContainer{
+    display: flex;
+    align-items: flex-end;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:50%;
     position: fixed;
     bottom: 0;
 }
@@ -7,10 +13,27 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-left: 19rem;
-
+    margin-left: 6rem;
 }
 .leftSocials::after{
+    content: "";
+    width: 2px;
+    height: 10rem;
+    background-color: var(--color-primary);
+}
+.emailSocial {
+    font-family: 'Fira Code';
+    transform: rotate(-90deg);
+    margin-bottom: 7rem;
+}
+.rightSocials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+.rightSocials::after{
     content: "";
     width: 2px;
     height: 10rem;
