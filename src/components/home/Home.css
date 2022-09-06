@@ -18,7 +18,7 @@
     color: var(--color-secondary);
 }
 #container .information-box button{
-    margin-top: 3rem;
+    margin-top: 2rem;
     width:260px;
     height:60px;
     background-color: transparent;
@@ -30,6 +30,7 @@
 }
 .information-box{
     text-align: center;
+    margin-top: 12rem;
 }
 
 /* =========== CUBE =========== */

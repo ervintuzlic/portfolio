@@ -16,13 +16,13 @@ const Nav = () => {
             <nav>
                 <ul>
                     <li>
-                        <AiFillHome style={{width:"24px", height:"24px"}}/>
+                        <a style={{color:"white"}}href="#home"><AiFillHome style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
                     </li>
                     <li>
-                        <BsFillPersonFill style={{width:"24px", height:"24px"}}/>
+                        <a style={{color:"white"}}href="#about"><BsFillPersonFill style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
                     </li>
                     <li>
-                        <MdLibraryBooks style={{width:"24px", height:"24px"}}/>
+                        <a style={{color:"white"}}href="#projects"><MdLibraryBooks style={{width:"24px", height:"24px", cursor:"pointer"}}/></a>
                     </li>
                 </ul>
             </nav>

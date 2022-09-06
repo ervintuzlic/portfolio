@@ -14,6 +14,7 @@
     --color-bg: #05213A;
     --color-primary: #00D1FF;
     --color-secondary: #AFB8C0;
+    --color-transparent: #102A42;
 
     --transition: all 400ms ease;
 }
@@ -26,6 +27,7 @@ body{
     font-family: 'Inter var', sans-serif; 
     background: var(--color-bg);
     color: white;
+    scroll-behavior: smooth;
 }
 
 section{
