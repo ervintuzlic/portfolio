@@ -6,7 +6,6 @@ import {FiGithub} from 'react-icons/fi';
 import {BiWorld} from 'react-icons/bi';
 import {AiFillMail} from 'react-icons/ai';
 import {HiLocationMarker} from 'react-icons/hi';
-import reCAPTCHA from "react-google-recaptcha"
 
 const Contact = () => {
   const form = useRef();
@@ -34,8 +33,7 @@ const Contact = () => {
               <input type="text" name='name' placeholder="Your Name: " required />
               <input name='emailAddress' placeholder="Your Email Address: " required />
               <textarea name='message' placeholder="Your Message:  " required />
-              <button class="sendMessageButton" type="submit">Send Message</button>
-              <reCAPTCHA sitekey="6LcpjN0hAAAAAH31I3Nm7dUXhHFl0xnSBtskUMxG" onSubmit={sendEmail}/>              
+              <button class="sendMessageButton" type="submit">Send Message</button>              
             </form>
           </div>
           <div id="details">
