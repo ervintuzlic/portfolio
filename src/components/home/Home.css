@@ -136,7 +136,7 @@
   }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 860px){
   #container .information-box h3{
     font-size:11px;
   }

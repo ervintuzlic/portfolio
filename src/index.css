@@ -38,3 +38,11 @@ section{
 a{
     transition: var(--transition);
 }
+
+::-webkit-scrollbar{
+    width:8px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius:10px;
+    background-color: var(--color-secondary);
+}

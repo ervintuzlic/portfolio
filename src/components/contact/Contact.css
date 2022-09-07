@@ -13,7 +13,7 @@
     justify-content: center;
     gap: 5rem;
 }
-#messageContainer{
+#messageContainer form{
     position:relative;
     z-index: 4000;
     display: flex;
@@ -21,9 +21,9 @@
     align-items: center;
     margin-top:4.5rem;
     width:440px;
-    gap:2rem;
+    gap:1rem;
 }
-#messageContainer input, textarea{
+#messageContainer form input, textarea{
     height:70px;
     width: 440px;
     border-radius: 20px;
@@ -35,23 +35,10 @@
     padding-left: 2rem;
 }
 
-#messageContainer textarea{
+#messageContainer form textarea{
     padding-top: 2rem;
     height:300px;
 }
-
-#messageContainer button {
-    width:446px;
-    height:55px;
-    background-color: transparent;
-    border: 2px solid var(--color-primary);
-    color:white;
-    font-size:16px;
-    font-weight: bold;
-    border-radius: 4px;
-    transition: all 300ms ease-in-out;
-}
-
 ::placeholder{
     color:#AFB8C0;
     font-family:'Fira Code';
@@ -74,6 +61,24 @@
 }
 #contactDetails {
     margin-bottom: 6rem;
+}
+#messageContainer form button{
+    width:446px;
+    height:55px;
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 300ms ease-in-out;
+    cursor:pointer;
+}
+#messageContainer form button:hover{
+    background-color: white;
+    border: none;
+    color: var(--color-bg);
+    transition: all 400ms ease-in-out;
 }
 
 @media screen and (max-width: 1280px){
@@ -138,7 +143,7 @@
   } */
 
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 860px){
     #contactContainer{
         margin-top:95rem;
         padding-bottom:20rem;
