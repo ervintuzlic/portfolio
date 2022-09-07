@@ -115,3 +115,43 @@
         height:240px;
     }
 }
+/* @media screen and (max-width: 640px){
+    #contactContainer{
+        margin-top:95rem;
+        width:370px;
+    }
+    #messageContainer input, textarea{
+        height:50px;
+        width: 370px;
+    }
+    #contactSection{
+        display:block;
+        width:370px;
+    }
+    #contactContainer #contactSection #messageContainer{
+        width:370px;
+    }
+    #details{
+        width:370px;
+        margin-top:4rem;
+    }
+  } */
+
+
+@media screen and (max-width: 640px){
+    #contactContainer{
+        margin-top:95rem;
+        padding-bottom:20rem;
+        width:380px;
+    }
+    #contactSection {
+        flex-direction: column;
+        align-items: center;
+    }
+    #details #contactDetails p{
+        font-size:12px;
+    }
+    #details #socialMediaDetails p{
+        font-size:12px;
+    }
+}

@@ -84,3 +84,18 @@
         display:none;
     }
 }
+
+
+@media screen and (max-width: 640px){
+    .avatar{
+        width: 120px;
+        height: 120px;
+    }
+    #aboutContainer .aboutSection{
+        margin-top:11.5rem;
+        padding-top:4rem;
+        width:80%;
+        font-size:16px;
+    }
+
+  }

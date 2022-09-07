@@ -73,9 +73,6 @@
 }
 
 @media screen and (max-width: 1280px){
-    .project{
-        width: 54%;
-    }
     .projectImage{
         width:250px;
         height:130px;
@@ -89,3 +86,24 @@
         width: 250px;
     }
 }
+
+@media screen and (max-width: 640px){
+
+    .projectsHeadline{
+        margin-top:17rem;
+    }
+    .project{
+        margin-top:7rem;
+    }
+    .projectImage{
+        width:240px;
+        height:130px;
+    }
+    .image-for-project  {
+        width:240px;
+        height:130px;
+    }
+    .project .projectIndividual{
+        width:240px;
+    }
+  }

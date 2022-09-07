@@ -64,3 +64,8 @@
 .rightSocials p a{
     color:white;
 }
+@media screen and (max-width: 640px){
+    #socialsContainer{
+        display:none;
+    }
+  }
