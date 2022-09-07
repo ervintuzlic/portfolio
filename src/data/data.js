@@ -1,4 +1,3 @@
-import React from 'react';
 import bulkybook from '../assets/projects/BulkyBook.png';
 import dashboard from '../assets/projects/ErvinDashboard.png';
 import portfolio from '../assets/projects/ErvinPortfolio.png';
