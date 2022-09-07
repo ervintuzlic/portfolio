@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <div id="nav-container">
         <div class="logo">
-            <img class="etlogo" src={logo}/>
+            <img class="etlogo" alt="logo" src={logo}/>
         </div>
         <div class="navigation-bar">
             <nav>

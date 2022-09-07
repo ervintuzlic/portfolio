@@ -7,7 +7,7 @@ const About = () => {
     <section id='about'>
       <div id="aboutContainer">
         <div class="aboutHeadline">About Me</div>
-        <img src={Avatar} class="avatar" />
+        <img src={Avatar} alt="avatar" class="avatar" />
         <div class="aboutSection">
           <h3>Ervin Tuzlic</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident eligendi, voluptas quidem a tempore pariatur omnis aliquid? Nisi doloribus laudantium provident fugiat cumque consectetur accusamus sit dicta error, ratione quam.</p>
