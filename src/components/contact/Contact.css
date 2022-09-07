@@ -13,7 +13,7 @@
     justify-content: center;
     gap: 5rem;
 }
-#messageContainer form{
+#messageContainer{
     position:relative;
     z-index: 4000;
     display: flex;
@@ -63,7 +63,7 @@
     margin-bottom: 6rem;
 }
 #messageContainer form button{
-    width:446px;
+    width:260px;
     height:55px;
     background-color: transparent;
     border: 2px solid var(--color-primary);
@@ -92,7 +92,7 @@
     #contactContainer #contactSection #messageContainer{
         width:240px;
     }
-    #messageContainer input, textarea{
+    #messageContainer form input, textarea{
         height:50px;
         width: 270px;
     }
@@ -120,30 +120,7 @@
         height:240px;
     }
 }
-/* @media screen and (max-width: 640px){
-    #contactContainer{
-        margin-top:95rem;
-        width:370px;
-    }
-    #messageContainer input, textarea{
-        height:50px;
-        width: 370px;
-    }
-    #contactSection{
-        display:block;
-        width:370px;
-    }
-    #contactContainer #contactSection #messageContainer{
-        width:370px;
-    }
-    #details{
-        width:370px;
-        margin-top:4rem;
-    }
-  } */
-
-
-@media screen and (max-width: 860px){
+@media screen and (max-width: 800px){
     #contactContainer{
         margin-top:95rem;
         padding-bottom:20rem;
