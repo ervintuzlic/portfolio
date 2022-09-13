@@ -121,6 +121,10 @@
     }
 }
 @media screen and (max-width: 800px){
+    #contact{
+        display:flex;
+        justify-content: center;
+    }
     #contactContainer{
         margin-top:95rem;
         padding-bottom:20rem;

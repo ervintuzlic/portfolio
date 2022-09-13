@@ -94,6 +94,7 @@
     }
     .project{
         margin-top:7rem;
+        justify-content: center;
     }
     .projectImage{
         width:240px;
